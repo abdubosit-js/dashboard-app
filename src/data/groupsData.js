@@ -1,0 +1,51 @@
+export const groupsData = [
+    {
+        id: 1,
+        date: "December 20, 2022",
+        title: "Frontent 010",
+        students: 6,
+        progress: 70,
+        color: "#FEE4CB",
+        oqtuvchi: "o'qtuvchi"
+    },
+    {
+        id: 2,
+        date: "December 20, 2022",
+        title: "Backend 001",
+        students: 6,
+        progress: 70,
+        color: "#DBF6FD",
+    },
+    {
+        id: 3,
+        date: "December 20, 2022",
+        title: "Frontent 011",
+        students: 6,
+        progress: 70,
+        color: "#FEE4CB",
+    },
+    {
+        id: 4,
+        date: "December 20, 2022",
+        title: "Frontent 012",
+        students: 6,
+        progress: 70,
+        color: "#FEE4CB",
+    },
+    {
+        id: 5,
+        date: "December 20, 2022",
+        title: "Frontent 013",
+        students: 6,
+        progress: 70,
+        color: "#FEE4CB",
+    },
+    {
+        id: 6,
+        date: "December 20, 2022",
+        title: "Backend 002",
+        students: 6,
+        progress: 70,
+        color: "#DBF6FD",
+    },
+]
