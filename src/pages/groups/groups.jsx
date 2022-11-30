@@ -34,7 +34,7 @@ export const Groups = () => {
           <div className='grid-cnt' >
               {groupsData.map((item) => {
                 return (
-                  <div className='col-bar' span={8} style={{background: item.color}}>
+                  <div className='col-bar' key={item.id} span={8} style={{background: item.color}}>
                     <div className='top-flex'>
                       <p>{item.date}</p>
                       <MenuIcon/>
