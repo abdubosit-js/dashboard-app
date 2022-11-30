@@ -8,7 +8,6 @@ import { useState } from "react";
 
 function App() {
   const [isActive, setIsActive] = useState(false)
-  console.log(isActive)
   return (
     <div className="app-container">
       <Navbar setIsActive={setIsActive} isActive={isActive} />

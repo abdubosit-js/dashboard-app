@@ -8,6 +8,27 @@ export const StudentsWrapper = styled.div`
         background-color: white;
         box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
         border-radius: 30px;
+        .ant-table-thead{
+            .ant-table-cell {
+                background-color: white;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 21px;
+                letter-spacing: -0.01em;
+                color: #B5B7C0;
+            }
+        }
+        .ant-table-tbody {
+            .ant-table-cell {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 21px;
+                letter-spacing: -0.01em;
+                color: #292D32;
+            }
+        }
         .top-container {
             display: flex;
             justify-content:space-between;
